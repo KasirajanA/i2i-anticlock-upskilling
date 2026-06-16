@@ -1,0 +1,39 @@
+# Web framework
+fastapi==0.137.1
+uvicorn[standard]==0.49.0
+
+# Async database
+sqlalchemy==2.0.51
+aiosqlite==0.22.1
+alembic==1.18.4
+
+# Data validation
+pydantic==2.13.4
+pydantic-settings==2.14.1
+
+# File uploads
+python-multipart==0.0.32
+
+# Image processing
+Pillow==11.3.0
+
+# Scheduler (APScheduler 3.x asyncio backend)
+apscheduler==3.11.2
+
+# Caching
+cachetools==6.1.0
+
+# Security
+bcrypt==5.0.0
+passlib[bcrypt]==1.7.4
+
+# Email validation
+email-validator==2.2.0
+
+# Testing
+pytest==9.1.0
+pytest-asyncio==1.4.0
+httpx==0.28.1
+
+# Linting
+ruff==0.15.17

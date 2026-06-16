@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project handover document
+HANDOVER.md
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env*
+
+# Backend attachments (runtime files, not source)
+backend/attachments/
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+crm.db
+
+# Backend virtualenv
+backend/.venv/
+
+# Alembic
+backend/alembic/versions/__pycache__/
